@@ -1,0 +1,60 @@
+01. Command that creates a new Rails application:
+  
+      $ rails new <APP_PATH> -T --database=postgresql
+
+      where:
+        -T                   => do not include test environment
+        --database=postgreql => specifies the postgresql database instead of default sqlite3
+
+02. Configuring postgresql:
+  
+      Access postgresql console:
+        jon@radio-debian:~$ sudo -u postgres -i
+
+      Grant create db permission to role "jon":
+        postgres@radio-debian:~$ psql
+        postgres=# ALTER USER jon CREATEDB;
+
+      May need following also:
+        postgres=# GRANT ALL PRIVILEGES ON DATABASE database_name to new_user;
+        postgres=# ALTER DATABASE database_name owner to new_user;
+
+03. Generate postgresql database executed from project directory:
+      $ rails db:create
+      $ rails db:migrate 
+
+04. Command to start rails server:
+      $ rails server
+          -or-
+      $ rails s
+
+05. Command to generate scaffold for a Blog:
+      $ rails g scaffold Blog title:string body:text
+
+      Now to create the table:
+          $ rails db:migrate
+
+06. Command to view all routes:
+      $ rake routes
+
+07. Command to view rails help:
+      $ rails -h
+
+08. Command to view rails version:
+      $ rails -v
+      
+09. Command to initialize empty git repository (issued from project root dir):
+      $ git init
+
+10. Command to add all files to be staged for commit:
+      $ git add .
+
+11. Command to check status of staged/unstaged files:
+      $ git status
+
+12. Command to commit staged files:
+      $ git commit -m '<commit message>'
+
+13. Command to check log of all commits:
+      $ git log
+      
