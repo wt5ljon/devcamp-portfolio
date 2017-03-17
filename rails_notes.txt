@@ -63,3 +63,10 @@
 
 15. Command to remove git cache:
       $ git rm . -r --cached
+
+16. Command to view all branches:
+      $ git branch
+
+17. Command to create a new branch and switch to it:
+      $ git checkout -b <branch-name>
+      
