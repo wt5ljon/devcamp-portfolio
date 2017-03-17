@@ -57,4 +57,9 @@
 
 13. Command to check log of all commits:
       $ git log
-      
+
+14. Command to remove a file from staged status:
+      $ git checkout config/secrets.yml
+
+15. Command to remove git cache:
+      $ git rm . -r --cached
