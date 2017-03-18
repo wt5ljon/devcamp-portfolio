@@ -79,3 +79,7 @@
 20. Command to start up rails console (direct connection to the databases):
       $ rails c
 
+21. Command to generate resource (skinny scaffold):
+      $ rails g resource Portfolio title:string subtitle:string body:text main_image: text thumbnail_image: text
+
+
