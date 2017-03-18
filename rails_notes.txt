@@ -69,4 +69,13 @@
 
 17. Command to create a new branch and switch to it:
       $ git checkout -b <branch-name>
-      
+
+18. Command to generate new controller:
+      $ rails g controller Pages home about contact
+ 
+19. Command to generate new model:
+      $ rails g model Skill title:string percent_utilized:integer    
+
+20. Command to start up rails console (direct connection to the databases):
+      $ rails c
+
