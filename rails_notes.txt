@@ -82,4 +82,8 @@
 21. Command to generate resource (skinny scaffold):
       $ rails g resource Portfolio title:string subtitle:string body:text main_image: text thumbnail_image: text
 
+22. Command to change ruby version:
+      $ rvm use 2.4.0
 
+23. Command to re-initialize database and run seeds.rb commands:
+      $ rails db:setup
