@@ -93,4 +93,7 @@
 
 25. Command to view system routes filtered by <keyword>:
       $ rake routes | grep <keyword>
+
+26. Command to push branch to github:
+      $ git push origin <branch-name>
       
