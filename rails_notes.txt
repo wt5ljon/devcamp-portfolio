@@ -87,3 +87,10 @@
 
 23. Command to re-initialize database and run seeds.rb commands:
       $ rails db:setup
+
+24. Command to view all system routes
+      $ rake routes
+
+25. Command to view system routes filtered by <keyword>:
+      $ rake routes | grep <keyword>
+      
