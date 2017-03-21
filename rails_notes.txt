@@ -82,4 +82,18 @@
 21. Command to generate resource (skinny scaffold):
       $ rails g resource Portfolio title:string subtitle:string body:text main_image: text thumbnail_image: text
 
+22. Command to change ruby version:
+      $ rvm use 2.4.0
 
+23. Command to re-initialize database and run seeds.rb commands:
+      $ rails db:setup
+
+24. Command to view all system routes
+      $ rake routes
+
+25. Command to view system routes filtered by <keyword>:
+      $ rake routes | grep <keyword>
+
+26. Command to push branch to github:
+      $ git push origin <branch-name>
+      
