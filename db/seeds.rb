@@ -46,3 +46,11 @@ end
 end
 
 puts "9 portfolio items created"
+
+['Ruby', 'Rails', 'Programming'].each do |technology|
+  Portfolio.last.technologies.create!(
+    name: "#{technology}",
+  )
+end
+
+puts "3 technologies created"
