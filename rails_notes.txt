@@ -97,3 +97,7 @@
 26. Command to push branch to github:
       $ git push origin <branch-name>
       
+27. Commands to update local project from Github (after remote merge):
+      $ git checkout master
+      $ git pull
+
