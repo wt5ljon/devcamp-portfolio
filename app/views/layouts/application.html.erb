@@ -19,6 +19,9 @@
 
         <div class="cover-container">
 
+        <div id="background"></div>
+
+        <% if false %>
           <%= video_tag(
               'sample-video1.mp4',
               id: 'background',
@@ -27,6 +30,7 @@
               muted: true,
               poster: 'home_bg.jpg'
             ) %>
+        <% end %>
 
           <%= render "shared/application_nav" %>
 
