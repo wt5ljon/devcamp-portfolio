@@ -3,10 +3,7 @@ Rails.application.routes.draw do
   resources :portfolios, except: [:show] do
     put :sort, on: :collection
   end
-  
   get 'angular-items', to: 'portfolios#angular'
-
-  # adds a custom route method for the show action
   get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_show'
   
   get 'about-me', to: 'pages#about'
