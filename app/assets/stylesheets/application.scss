@@ -146,11 +146,11 @@ h6, .h6 {
 @media (min-width: 40em) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
+    position: relative;
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+    position: relative;
     bottom: 0;
   }
   /* Start the vertical centering */
@@ -259,4 +259,9 @@ h6, .h6 {
 .skill {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.home {
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
