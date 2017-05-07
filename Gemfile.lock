@@ -302,5 +302,8 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   wt5l_view_tool!
 
+RUBY VERSION
+   ruby 2.4.0p0
+
 BUNDLED WITH
    1.14.6
