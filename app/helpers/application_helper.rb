@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    Wt5lViewTool::Renderer.copyright "Jon Olson", "All Rights Reserved"
+    Wt5lViewTool::Renderer.copyright "Name Here", "All Rights Reserved"
   end
 
   def nav_items
@@ -71,7 +71,7 @@ module ApplicationHelper
   end
 
   def alert_generator msg
-    js add_gritter(msg, title: "Jon Olson Portfolio", sticky: false)
+    js add_gritter(msg, title: "Name Here Portfolio", sticky: false)
   end
 
 end
